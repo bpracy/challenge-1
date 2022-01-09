@@ -1,0 +1,113 @@
+
+body{
+	margin: 0;
+	background: #e5e5e5;
+}
+
+.header{
+	background: #2d23aa;
+	padding: 10px 64px;
+}
+
+.container-1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container-1-logo{
+	height: 60px;
+	width: 60px;
+	border-radius:50%;
+	background: #f9dff8;
+	align-items: center;
+	
+}
+.logo{
+	margin:10% 15%;
+}
+
+.link{
+	color: white;
+	text-decoration: none;
+	margin-right: 24px;
+	font-size: 18px;
+}
+.link:hover{
+	text-decoration: underline;
+	color:#9d99d7 ;
+}
+.button{
+	border-radius: 8px;
+	background: #af08a9;
+	color: #f9f7f7;
+	padding: 12px 20px;
+	font-size: 16px; /*18px c est trop grand*/
+	margin-left: 24px;
+	border: none;
+}
+
+.container-2{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 34px;
+	padding-right: 86px;
+}
+.card{
+	border: 1px #ccc solid;
+	border-radius: 16px;
+	background: rgba(255, 140, 250, 0.4);
+	box-shadow: 3px 6px 17px rgba(0, 0, 0, 0.1); 
+	padding-top: 24px;
+	padding-right:30px ;
+	padding-left: 30px;
+	padding-bottom: 30px;/*il y a un padding-bottom par defaut qui ne part pas*/
+	margin-top: 40px;
+	flex-basis: 340px;
+}
+.image{
+	display: flex;
+	justify-content: center;
+}
+.card-image{
+	display: flex;
+	height:200px ;
+	width:200px ;
+	border-radius: 50%;
+	background: #e2e0f9;
+	justify-content:center;
+	align-items: center;
+	margin-bottom: 30px;
+
+}
+.initial{
+	font-size: 120px;
+	font-weight: 400;
+	color: #2d23aa;
+}
+.card-title{
+	display: flex;
+	justify-content: flex-start;
+}
+.title{
+	font-size: 32px;
+	color: #070058;
+	margin-bottom: 16px;
+	font-weight:400 ;
+}
+.card-name{
+	display: flex;
+	justify-content: flex-start;
+}
+.name{
+	font-size:22px ;
+	font-weight: 400;
+	color: #07005b;
+	margin-bottom: 64px;
+}
+.card-version{
+	display: flex;
+	justify-content: flex-end;
+}
+.version{
+	color: #696969;
+}
