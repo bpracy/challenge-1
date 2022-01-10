@@ -2,29 +2,40 @@
 <html>
 <head>
 	<title>Challenge 1 flexbox</title>
-	<link rel="stylesheet" type="text/css" href="challenge1style.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 	<header class="header">
 		<div class="container-1">
-			<div class="container-1-logo"><img class="logo" src="images/Subtract.png"  alt="logo"> 
+      <!-- pourquoi pas header-logo -->
+			<div class="container-1-logo">
+        <!-- pourquoi pas logo.png, on pourrait utiliser plutot l'extension .svg -->
+        <img class="logo" src="images/Subtract.png"  alt="logo"> 
 			</div>
+      <!-- pourquoi pas header-links -->
 			<div class="container-1-links" >
-				<a class="link" href="">Home</a>
+        <!-- pourquoi pas header-link -->
+        <!-- mieux donner href="#" que le laisser vide -->
+				<a class="link" href="">Home</a> <!-- donner une classe suplementaire active, et faire le css correspondant -->
 				<a class="link" href="">Contact</a>
 				<a class="link" href="">About</a>
 			</div>
+      <!-- pourquoi pas header-buttons -->
 			<div class="container-1-buttons" >
 				<button class="button">Creer un compte</button>
 				<button class="button">Se connecter</button>
 			</div>
 		</div>
 	</header>
+  <!-- pourquoi pas cards, ou section-cards -->
 	<section class="container-2">
 		<div class="card">
 			<div class="image">
+        <!-- on n'a vrt pas besion de paragraph ici.  card-image??? -->
+        <!-- <div class="card-image">H</div> -->
 				<div class="card-image"><p class="initial">H</p></div>
 			</div>
+      <!-- on n'a pas besion de paragraph ici non plus -->
 			<div class="card-title"><p class="title">HTML 5</p></div>
 			<div class="card-name"><p class="name">Hypertext Markup Language</p></div>
 			<div class="card-version"><p class="version">Version 5</p></div>
