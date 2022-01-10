@@ -14,41 +14,39 @@ body{
   justify-content: space-between;
   align-items: center;
 }
-.container-1-logo{
+.header-logo{
   height: 60px;
   width: 60px;
   border-radius:50%;
   background: #f9dff8;
   align-items: center;
-  
 }
-.logo{
-  margin:10% 15%; /* Attention aux margins en pourcentage */
-}
-
-.link{
+.header-link{
   color: white;
   text-decoration: none;
   margin-right: 24px;
   font-size: 18px;
-  /* puisque hover change css, on peut ajouter ici en haut une transition */
-  /* ex: */ transition: color 0.3s;
+  transition: color 0.3s;
 }
-.link:hover{
+.header-link:hover{
   text-decoration: underline;
   color:#9d99d7 ;
+}
+.header-link:active{
+  text-decoration: underline;
+  color:yellow ;
 }
 .button{
   border-radius: 8px;
   background: #af08a9;
   color: #f9f7f7;
   padding: 12px 20px;
-  font-size: 16px; /*18px c est trop grand*/
+  font-size: 16px; 
   margin-left: 24px;
   border: none;
 }
 
-.container-2{
+.section-cards{
   display: flex;
   justify-content: space-between;
   padding-left: 34px;
@@ -62,15 +60,15 @@ body{
   padding-top: 24px;
   padding-right:30px ;
   padding-left: 30px;
-  padding-bottom: 30px; /*il y a un padding-bottom par defaut qui ne part pas*/
+  padding-bottom: 30px; 
   margin-top: 40px;
   flex-basis: 340px;
 }
-.image{
+.card-image{
   display: flex;
   justify-content: center;
 }
-.card-image{
+.image{
   display: flex;
   height:200px ;
   width:200px ;
@@ -79,40 +77,27 @@ body{
   justify-content:center;
   align-items: center;
   margin-bottom: 30px;
-  
-}
-.initial{
   font-size: 120px;
   font-weight: 400;
   color: #2d23aa;
+  font-family: 'Roboto', sans-serif;
 }
 .card-title{
-  /* a-t-on vraiment besoin de flex ici?, ca ne change rien */
-  display: flex;
-  justify-content: flex-start;
-}
-.title{
   font-size: 32px;
   color: #070058;
   margin-bottom: 16px;
   font-weight:400 ;
+  font-family: 'Roboto', sans-serif;
 }
 .card-name{
-  /* a-t-on vraiment besoin de flex ici?, ca ne change rien */
-  display: flex;
-  justify-content: flex-start;
-}
-.name{
   font-size:22px ;
   font-weight: 400;
   color: #07005b;
   margin-bottom: 64px;
+  font-family: 'Roboto', sans-serif;
 }
 .card-version{
-  display: flex;
-  justify-content: flex-end;
-  /* a-t-on vraiment besoin de flex ici? text-align: right fairait l'affaire */
-}
-.version{
+  text-align: right;
   color: #696969;
+  font-family: 'Roboto', sans-serif;
 }
